@@ -1,0 +1,168 @@
+body{
+	background-color: black;
+    color: white;
+	text-align: center;
+}
+h1, h2, h4, h6, p, form, .navbar-brand{font-family: 'Scheherazade New', serif;
+}
+h1{
+	font-size: 4.5rem;
+	letter-spacing: 15px;
+}
+h6{
+	font-size: 1.7rem;
+}
+ h4 {
+ 	padding-top: 5px;
+	font-size: 2rem;
+}
+p{
+	font-size: 1.8rem;
+	text-align: left;
+	padding: 5%;
+}
+
+.Details-box{
+	background-color: blue;
+	width: 100%;
+	height: 300px;
+}
+.proverb{
+	background-color: gray;
+	width: 100%;
+	height: 200px;
+	padding: 2%;
+	font-size: 2.5rem;
+}
+pre{
+  font-family: 'Dancing Script', cursive;
+  color: black;
+}
+img{
+	width: 90%;
+	height: 90%;
+	border-radius: 8px ;
+}
+
+.card-body{
+	background-color: black;
+}
+.card{
+	border-color: black;
+}
+.parallax{
+	background-image: url(img/mainpic.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+.parallax2{
+	background-image: url(img/pic.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.box1{
+	background-color: gray;
+	width: 70%;
+	height: 280px;
+	margin-top: 10px;
+	position: absolute;
+}
+.box2{
+	background-color: yellow;
+	position: relative;
+	color: red;
+	width: 35%;
+	height: 220px;
+	left: 60%;
+  top: 12%;
+}
+.contact{
+    background-color: rgba(217, 204, 255, 0.5);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+	width: 45%;
+	border-radius: 10px;
+	margin-left: 30%;
+}
+textarea{
+	height: 70px;
+	width: 56%;
+}
+form{
+	
+	font-size: 1.5rem;
+	color: black;
+	padding: 10% 1px;
+}
+.name, .mail{
+	margin-left: 15px;
+}
+.end-box1{
+	width: 50%;
+	position: relative;
+}
+.end-box2{ 
+	width: 50%;
+	position: relative;
+	left:50%;
+	bottom: 130px;
+}
+.profile-pic{ 
+	border-radius: 50%;
+    height: 200px;
+    width: 50%; 
+}
+.navbar{
+	width: 100%;
+	background-color: #A2CDCD;
+	position: fixed;
+}
+.collapse{
+	margin-left: 45%;
+	font-size: 1.9rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+i{
+	padding: 10px;
+}
+@media (max-width: 700px){
+       .end-box2{
+       	width: 50%;
+	    position: relative;
+	    left:50%;
+	    bottom: 50px;
+       }
+}
+a i:hover{
+	width: 80%;
+   color: red;
+}
+@media (max-width: 800px){
+.contact{ 
+	background-color: rgba(217, 204, 255, 0.5);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+	width: 80%;
+	border-radius: 10px;
+	margin-left: 15%;
+  }
+}	
+.card p{
+	padding-left: 20%;
+}
+.Glass{
+	width: 375px;
+	height: 415px;
+
+    background:linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)) ;
+    -webkit-backdrop-filter: blur(3px);
+}
